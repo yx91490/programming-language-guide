@@ -1,0 +1,19 @@
+{
+  "name": "programming-language-guide",
+  "version": "1.0.0",
+  "description": "Programming Language Guide",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vuepress": "2.0.0-rc.26",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "vuepress-theme-hope": "^2.0.0-rc.0"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.97.0"
+  }
+}
