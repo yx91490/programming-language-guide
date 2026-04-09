@@ -14,11 +14,13 @@ export default defineUserConfig({
     darkmode: "switch",
     navbar: [
       { text: "首页", link: "/", icon: "home" },
+      { text: "Scala", link: "/scala/", icon: "book" },
     ],
     markdown: {
       codeTabs: true,
     },
     sidebar: {
+      "/scala/": "structure",
       "/": "structure",
     },
   }),
